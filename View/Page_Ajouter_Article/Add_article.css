@@ -1,0 +1,235 @@
+body {
+    width: 90%;
+    background: url("img/preview18.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: auto;
+
+}
+
+
+form a {
+    text-decoration: none;
+    color: #F9B51D;
+    font-size: 18px;
+
+}
+
+.button,
+#div_mrgn2 {
+    background-color: #2C2119;
+    border: 2px solid #9C8070;
+    border-radius: 6px;
+    padding: 6px;
+    color: #cabda2;
+}
+
+.button:hover,
+#div_mrgn2:hover {
+    background-color: #9C8070;
+    color: #000;
+}
+
+.button,
+.button:hover {
+    transition: all .5s linear;
+}
+
+#div_mrgn {
+    margin-left: 35%;
+
+}
+
+
+
+nav,
+footer {
+    box-shadow: 0 0 5px #000;
+    margin: auto;
+    background-color: #2E3C4E;
+    border-radius: 0.5em;
+
+}
+
+footer {
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    color: #FCD788;
+}
+
+nav a {
+    color: #F9B51D;
+    font-variant: small-caps;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+article {
+    padding: 16px;
+
+}
+
+footer {
+    color: #FFF;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+footer p {
+    background-color: #2C2119;
+    width: 40%;
+    padding: 6px;
+    margin-left: 30%;
+    border-radius: 0.5em;
+    border: 5px solid #413c3a;
+    box-shadow: 0 0 10px #000;
+
+}
+
+footer p {
+    font-family: 'Charm', cursive;
+
+}
+
+a:hover {
+    color: #FCD788;
+}
+
+
+input {
+    border: none;
+    padding: 6px;
+}
+
+input[type="text"],
+input[type="adresse"],
+input[type="password"] {
+    border: 2px solid #2C2119;
+    margin-top: 5%;
+}
+
+
+section {
+    margin: auto;
+    padding-top: 1%;
+    margin-top: 3%;
+    width: 70%;
+    border: solid 1px;
+}
+
+
+
+.inline_blocks {
+    padding: 0.5em;
+    padding-right: 1.5em;
+    display: inline-block;
+
+}
+
+.float {
+    text-align: right;
+    width: 30%;
+}
+
+
+
+#div_mrgn {
+    margin-right: 0.2em;
+    margin-left: 2%;
+
+}
+
+select {
+    width: 19em;
+
+}
+
+
+
+
+input,
+select{
+    border-radius: 0.2em;
+    border-color: rgba(128, 128, 128, 0.3);
+
+}
+
+
+.inserted_element {
+    color:red;
+    width: 100%;
+
+}
+
+.insterted_blocks {
+    width: 55.5%;
+}
+
+.min_width{
+    min-width:240px;
+}
+
+
+.float_right {
+    width: "62%";
+    background-color: "red";
+
+}
+
+
+
+.emptyblocks {
+    display: inline-block;
+    width: 33%;
+}
+
+#btns_block {
+    display: inline-block;
+    width: 30%
+}
+
+body>p {
+    color: rgb(0, 255, 0);
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: -1%;
+}
+
+header {
+    display: flex;
+    padding-top: 2%;
+}
+
+nav {
+    margin-top: 4%;
+    width: 86%;
+}
+
+.desc_div{
+width: 100%;
+
+}
+textarea{
+width: 90%;
+height:15em;
+min-height:15em;
+margin-left:3.8%;
+max-width: 90%;
+min-width:90%;
+}

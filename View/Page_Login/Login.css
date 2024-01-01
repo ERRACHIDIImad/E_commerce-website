@@ -1,0 +1,213 @@
+body {
+    display: flex;
+    flex-direction:  column;  
+    min-height: 100vh;  
+    margin: auto;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #C9C9C9;
+    background: url("img/preview18.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+}
+main{
+    flex:1;  
+}
+
+.button,
+#div_mrgn2 {
+    background-color: #2C2119;
+    border: 2px solid #9C8070;
+    border-radius: 6px;
+    color: #cabda2;
+}
+
+.button:hover,
+#div_mrgn2:hover {
+    background-color: #9C8070;
+    color: #000;
+}
+
+.button,
+.button:hover {
+    transition: all .5s linear;
+}
+
+
+
+nav,
+footer {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #2E3C4E; 
+    border-radius: 0.5em; 
+}
+
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px; 
+}
+
+a:hover {
+    color: #FCD788;
+}
+
+nav a {
+    color: #F9B51D;
+    font-variant: small-caps;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+article {
+    padding: 16px;
+
+}
+
+footer {
+    color: #FFF;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: 0 0 5px #000;
+}
+
+
+
+footer p {
+    background-color: #2C2119;
+    width: 40%;
+    padding: 6px;
+    margin-left: 30%;
+    border-radius: 0.5em;
+    border: 5px solid #413c3a;
+    box-shadow: 0 0 10px #000;
+
+}
+
+footer p {
+    font-family: 'Charm', cursive;
+
+}
+
+a:hover {
+    color: #FCD788;
+}
+
+
+input {
+    border: none;
+    padding: 6px;
+}
+
+input[type="text"],
+input[type="adresse"],
+input[type="password"] {
+    border: 2px solid #2C2119;
+    margin-top: 5%;
+}
+
+
+section {
+    width: 60%;
+    border: solid 1px;
+    float:right;  
+    padding-top: 1%;
+    padding-bottom: 1%; 
+    margin-right:7%;
+    margin-top:3%
+    
+}
+
+
+
+.inline_blocks {
+    padding: 0.5em;
+    padding-right: 1.5em;
+    display: inline-block;
+
+}
+
+.float {
+    text-align: right;
+    width: 30%;
+}
+
+
+
+#div_mrgn {
+    margin-right: 0.2em;
+    margin-left: 2%;
+    padding:6px;
+
+}
+
+select {
+    width: 19em;
+
+}
+
+
+
+
+input,
+select,
+button {
+    border-radius: 0.2em;
+    border-color: rgba(128, 128, 128, 0.3);
+
+}
+
+
+.inserted_element {
+    color:red;
+    width: 100%;
+}
+
+.insterted_blocks {
+    width: 55.5%;
+}
+
+
+
+.float_right {
+    width: "62%";
+    background-color: "red";
+
+}
+
+
+
+.emptyblocks {
+    display: inline-block;
+    width: 34.5%;
+}
+
+#btns_block {
+    display: inline-block;
+    width: 30%
+}
+
+form a {
+text-decoration: none;
+    color: #F9B51D;
+    font-size: 18px;
+
+}
+
+
+
+#logo_div{
+    float:left;  
+    width:25%;
+    margin-left: 6%; 
+
+}
+
+.min_width{
+    min-width:240px;
+}
